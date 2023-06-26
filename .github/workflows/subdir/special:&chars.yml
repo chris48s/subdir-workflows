@@ -1,0 +1,9 @@
+name: Workflow 2
+on: [push]
+
+jobs:
+  deploy-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: exit 0
